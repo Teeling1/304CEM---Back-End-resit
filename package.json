@@ -1,28 +1,70 @@
 {
-  "name": "dataapi",
-  "version": "1.0.0",
-  "description": "tstapi",
-  "main": "index.js",
+  "_from": "lodash@^4.14.0",
+  "_id": "lodash@4.17.11",
+  "_inBundle": false,
+  "_integrity": "sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==",
+  "_location": "/lodash",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "lodash@^4.14.0",
+    "name": "lodash",
+    "escapedName": "lodash",
+    "rawSpec": "^4.14.0",
+    "saveSpec": null,
+    "fetchSpec": "^4.14.0"
+  },
+  "_requiredBy": [
+    "/async",
+    "/eslint",
+    "/eslint-plugin-import",
+    "/inquirer",
+    "/table"
+  ],
+  "_resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.11.tgz",
+  "_shasum": "b39ea6229ef607ecd89e2c8df12536891cac9b8d",
+  "_spec": "lodash@^4.14.0",
+  "_where": "/Users/rhysbridges/Documents/304CEM-BackEnd-master/node_modules/async",
+  "author": {
+    "name": "John-David Dalton",
+    "email": "john.david.dalton@gmail.com",
+    "url": "http://allyoucanleet.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/lodash/lodash/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "John-David Dalton",
+      "email": "john.david.dalton@gmail.com",
+      "url": "http://allyoucanleet.com/"
+    },
+    {
+      "name": "Mathias Bynens",
+      "email": "mathias@qiwi.be",
+      "url": "https://mathiasbynens.be/"
+    }
+  ],
+  "deprecated": false,
+  "description": "Lodash modular utilities.",
+  "homepage": "https://lodash.com/",
+  "icon": "https://lodash.com/icon.svg",
+  "keywords": [
+    "modules",
+    "stdlib",
+    "util"
+  ],
+  "license": "MIT",
+  "main": "lodash.js",
+  "name": "lodash",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lodash/lodash.git"
+  },
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"See https://travis-ci.org/lodash-archive/lodash-cli for testing details.\""
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^4.11.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "nodemon": "^1.12.1"
-  },
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "express": "^4.16.2",
-    "mongoose": "^4.12.5",
-    "mysql": "^2.17.1"
-  }
+  "version": "4.17.11"
 }
