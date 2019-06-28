@@ -16,3 +16,4 @@ const routes = () => {
 };
 
 module.exports = routes;
+'Created to allow the index of the quiz to be seen by the user'
