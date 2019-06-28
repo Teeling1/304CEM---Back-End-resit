@@ -12,3 +12,4 @@ exports.listAnswers = (req, res) => {
 
   })
 };
+'lists answers according to the question that has been selected'
