@@ -11,3 +11,4 @@ exports.createAnswerTable = (req, res) => {
     res.end('Successfully created Answer Table');
   })
 };
+'This function creates the answers for each question'
