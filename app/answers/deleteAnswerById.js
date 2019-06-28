@@ -17,4 +17,4 @@ exports.deleteAnswer = (req, res) => {
 
   })
 };
-'Function created to unsure that the answer table can be updated when the user wants to delete an answer'
+
